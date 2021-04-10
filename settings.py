@@ -10,4 +10,4 @@ class Dev():
     SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:123456@47.102.218.113/edu?charset=utf8'
     SQLALCHEMY_TRACK_MODIFICATIONS =True # 可扩张
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True # 发生异常时，回收资源
-    SQLALCHEMY_ECH = True # True 显示调试SQL
+    SQLALCHEMY_ECHO = True # True 显示调试SQL

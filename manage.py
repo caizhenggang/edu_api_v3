@@ -2,7 +2,7 @@ from mainapp import app
 from mainapp.views import user_v
 from flask_script import Manager
 from flask import render_template
-from models import db
+from models import db,user
 
 @app.route('/')
 def index():
